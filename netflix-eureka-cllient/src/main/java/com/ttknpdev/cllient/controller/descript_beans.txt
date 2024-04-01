@@ -1,0 +1,3 @@
+Again you know @RestController mark for class is bean
+So this project i have 2 @RestController So its name
+Don't be the same
