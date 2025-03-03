@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 // Done crud concept
+// when you call http://localhost:8080/api/robot/reads eureka client will handle to  http://ROBOTS-MICROSERVICE/api/robot/reads
+// but you can not request on your own
 @RestController
 @RequestMapping(value = RobotRouter.ROUTER)
 public class RobotRouter {

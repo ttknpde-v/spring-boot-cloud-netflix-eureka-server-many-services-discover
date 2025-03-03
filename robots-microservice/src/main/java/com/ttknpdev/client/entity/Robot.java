@@ -15,7 +15,8 @@ public class Robot {
     // @GeneratedValue(strategy = GenerationType.IDENTITY) No auto_increment
     private Long rid;
     private String codename;
-    private String releaseDate; // work like @Column(name = "release_date")
+    @Column(name = "releasedate") // but this annotation for mapping specify column name
+    private String releaseDate; // by default it mapped release_date column name on sql
     private Double price;
     private Boolean status;
 }
